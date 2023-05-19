@@ -1,0 +1,19 @@
+
+
+git config --global user.name "Mukul Mangal"
+
+git config --global user.email "mannumangal6@gmail.com"
+
+touch .gitignore
+
+git init
+
+git add .
+
+git commit -m "Initial commit"
+
+git status
+
+git remote add origin git@github.com:Mukul609/todoApp.git
+
+git push origin master
